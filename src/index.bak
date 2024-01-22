@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container"> 
+     <div class="header">
+        <div class="logo">Anand Mahamuni</div>
+            <div class="perlinks">
+                <a href="https://github.com/SoapMac141" class="fa fa-github"></a>
+                <a href="https://twitter.com/AnandMahamuni4" class="fa fa-twitter"></a>
+                <a href="https://www.instagram.com/brunofadnavis141/" class="fa fa-instagram"></a>
+            </div>
+        </div>
+
+     <div class="hero">
+        <div class="herotext">
+            <div class="herotext0">This website is awesome!</div>
+            <div class="herotext1">This website has some subtext that under the main title.It's a smaller font & the color is a lower contrast.</div>
+            <button>Sign up</button>
+        </div>
+        <div class="img"><img src="images/pune.jpg"></div>
+     </div>
+     <div class="quotebox">
+        <div class="quote">
+             <div class="quotetext">"Good is not Good Enough"</div>    
+             <div class="quoteauthor">-Erik ten Hag</div>     
+        </div>
+     </div>
+
+     <div class="projectbox">
+        <div class="project">
+           <div class="prt">Project Display:</div>
+           <div class="boxes">
+                <div class="box">Coming soon!</div>
+                <div class="box">Coming soon!</div>
+                <div class="box">Coming soon!</div>
+           </div>
+        </div>
+        
+     </div>    
+     <div class="footer">© The Odin Project</div>
+    </div>
+    
+</body>
+</html>
