@@ -1,17 +1,46 @@
 body {
-  background: url("./bg1.webp");
-	background-color: rgba(255, 0, 0, 0.9);
+  background-color: black;
 }
 
-#content {
+.content {
   color: red;
-	font-family: "DotGothic16";
+  font-family: "DotGothic16";
   font-size: 50px;
   background-color: black;
   padding: 35px;
   height: 140px;
   display: flex;
+  flex-direction: column;
+  justify-content: left;
+  border-radius: 5px;
+}
+
+.header {
+  display: flex;
   flex-direction: row;
   justify-content: left;
-	border-radius: 5px;
+}
+
+.icons {
+  font-size: 45px;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+.iconsChild {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+img {
+  display: flex;
+  justify-content: center;
+  margin-left: 4px;
+  margin-right: 4px;
+  width: 119.2px;
+  height: 76px;
 }
