@@ -1,4 +1,4 @@
-import bat from "./bat1.jpg";
+import bat from "./images/bat1.jpg";
 
 const mainpage = () => {
 	let content = document.body.querySelector(".content");
