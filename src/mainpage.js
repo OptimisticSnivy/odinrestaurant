@@ -40,22 +40,7 @@ const header = () => {
   content.appendChild(header);
   content.appendChild(icons);
 
-  let menubtn = document.querySelector("#Menu");
-  menubtn.addEventListener("click", function (e) {
-    console.log("This is the menubtn!");
-  });
-
-  let contactbtn = document.querySelector("#Contact");
-  contactbtn.addEventListener("click", function (e) {
-    console.log("This is the contactbtn!");
-  });
-
-  let mainbtn = document.querySelector("#Home");
-  mainbtn.addEventListener("click", function (e) {
-    console.log("This is the mainbtn!");
-  });
 };
-
 
 const mainpage = () => {
   let content = document.body.querySelector(".content");
@@ -77,4 +62,8 @@ const menupage = () => {
   content.appendChild(menu);
 };
 
-export { header, mainpage, menupage };
+const removeDOM = () => {
+  let content = document.body.querySelector(".content");
+	document.body.removeChild(content);
+}
+export { header, mainpage, menupage,removeDOM };
