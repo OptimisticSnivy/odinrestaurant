@@ -51,7 +51,8 @@ const mainpage = () => {
   setInterval(() => {
     let mainbtn = document.querySelector("#Home");
     mainbtn.addEventListener("click", function () {
-      removeDOM();
+			mainbtn.innerText = "Home*";
+			removeDOM();
       header();
       content.appendChild(main);
     });
