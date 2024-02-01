@@ -1,4 +1,0 @@
-const contactpageContent = () => {
-}
-
-export {contactpageContent}
