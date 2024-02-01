@@ -4,7 +4,6 @@ import {
 	mainpage,
 	menupage,
 	contactpage,
-	removeDOM,
 } from "./mainpage.js";
 import "./style.css";
 

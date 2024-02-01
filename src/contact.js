@@ -1,0 +1,4 @@
+const contactpageContent = () => {
+}
+
+export {contactpageContent}
